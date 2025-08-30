@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Master M3U URL (jisme naya 6hr token har channel ke liye hota hai)
-const MASTER_M3U = "https://example.com/master.m3u";
+const MASTER_M3U = "https://raw.githubusercontent.com/Akash802980/nxtm3u/refs/heads/main/Aki.m3u";
 
 // Cache to avoid fetching on every request
 let cache = { data: null, time: 0 };
